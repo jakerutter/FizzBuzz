@@ -1,5 +1,5 @@
 # FizzBuzz
 
-## Practice completing FizzBuzz following TDD methods in various languages
+Practice completing FizzBuzz following TDD methods in C#
 
-So far have completed this practice in C#
+Admittedly didn't commit each time my tests went green. Will do that moving forward.
