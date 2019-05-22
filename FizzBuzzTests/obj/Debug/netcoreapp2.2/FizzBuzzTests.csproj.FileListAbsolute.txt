@@ -1,0 +1,14 @@
+C:\dev\Katas\FizzBuzzTests\obj\Debug\netcoreapp2.2\FizzBuzzTests.csprojAssemblyReference.cache
+C:\dev\Katas\FizzBuzzTests\obj\Debug\netcoreapp2.2\FizzBuzzTests.csproj.CoreCompileInputs.cache
+C:\dev\Katas\FizzBuzzTests\obj\Debug\netcoreapp2.2\FizzBuzzTests.AssemblyInfoInputs.cache
+C:\dev\Katas\FizzBuzzTests\obj\Debug\netcoreapp2.2\FizzBuzzTests.AssemblyInfo.cs
+C:\dev\Katas\FizzBuzzTests\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\dev\Katas\FizzBuzzTests\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\dev\Katas\FizzBuzzTests\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\dev\Katas\FizzBuzzTests\bin\Debug\netcoreapp2.2\FizzBuzzTests.deps.json
+C:\dev\Katas\FizzBuzzTests\bin\Debug\netcoreapp2.2\FizzBuzzTests.runtimeconfig.json
+C:\dev\Katas\FizzBuzzTests\bin\Debug\netcoreapp2.2\FizzBuzzTests.runtimeconfig.dev.json
+C:\dev\Katas\FizzBuzzTests\bin\Debug\netcoreapp2.2\FizzBuzzTests.dll
+C:\dev\Katas\FizzBuzzTests\bin\Debug\netcoreapp2.2\FizzBuzzTests.pdb
+C:\dev\Katas\FizzBuzzTests\obj\Debug\netcoreapp2.2\FizzBuzzTests.dll
+C:\dev\Katas\FizzBuzzTests\obj\Debug\netcoreapp2.2\FizzBuzzTests.pdb

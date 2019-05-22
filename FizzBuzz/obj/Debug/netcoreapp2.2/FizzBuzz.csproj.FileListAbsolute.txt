@@ -1,0 +1,11 @@
+C:\dev\Katas\FizzBuzz\bin\Debug\netcoreapp2.2\FizzBuzz.deps.json
+C:\dev\Katas\FizzBuzz\bin\Debug\netcoreapp2.2\FizzBuzz.runtimeconfig.json
+C:\dev\Katas\FizzBuzz\bin\Debug\netcoreapp2.2\FizzBuzz.runtimeconfig.dev.json
+C:\dev\Katas\FizzBuzz\bin\Debug\netcoreapp2.2\FizzBuzz.dll
+C:\dev\Katas\FizzBuzz\bin\Debug\netcoreapp2.2\FizzBuzz.pdb
+C:\dev\Katas\FizzBuzz\obj\Debug\netcoreapp2.2\FizzBuzz.csprojAssemblyReference.cache
+C:\dev\Katas\FizzBuzz\obj\Debug\netcoreapp2.2\FizzBuzz.csproj.CoreCompileInputs.cache
+C:\dev\Katas\FizzBuzz\obj\Debug\netcoreapp2.2\FizzBuzz.AssemblyInfoInputs.cache
+C:\dev\Katas\FizzBuzz\obj\Debug\netcoreapp2.2\FizzBuzz.AssemblyInfo.cs
+C:\dev\Katas\FizzBuzz\obj\Debug\netcoreapp2.2\FizzBuzz.dll
+C:\dev\Katas\FizzBuzz\obj\Debug\netcoreapp2.2\FizzBuzz.pdb
