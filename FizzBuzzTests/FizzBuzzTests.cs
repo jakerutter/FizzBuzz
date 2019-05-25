@@ -6,7 +6,6 @@ namespace FizzBuzzKata
     public class FizzBuzzTests
     {
         [Theory]
-        [InlineData(0)]
         [InlineData(1)]
         [InlineData(2)]
         public void WhenFizzBuzzIsPassedNonDivisibleNumberItReturnsThatNumber(int input)
@@ -31,6 +30,7 @@ namespace FizzBuzzKata
         }
 
         [Theory]
+        [InlineData(0)]
         [InlineData(15)]
         [InlineData(45)]
         public void WhenFizzBuzzIsPassedAMultipleOfThreeAndFiveItReturnsFizzBuzz(int input)
