@@ -1,43 +1,41 @@
+using Shouldly;
 using Xunit;
 
 namespace FizzBuzzKata
 {
-  public class FizzBuzzTests
-  {
-
-    FizzBuzz fizzBuzz = new FizzBuzz();
-
-    [Fact]
-    public void whenFizzBuzzIsPassedANumberItReturnsThatNumber()
+    public class FizzBuzzTests
     {
-      Assert.Equal("1", fizzBuzz.Fizz(1));
-    }
+        [Theory]
+        [InlineData(1)]
+        [InlineData(2)]
+        public void WhenFizzBuzzIsPassedNonDivisibleNumberItReturnsThatNumber(int input)
+        {
+            FizzBuzz.Evaluate(input).ShouldBe(input.ToString());
+        }
 
-    [Fact]
-    public void whenFizzBuzzIsPassedTwoItReturnsTwo()
-    {
-      Assert.Equal("2", fizzBuzz.Fizz(2));
-    }
+        [Theory]
+        [InlineData(3)]
+        [InlineData(6)]
+        public void WhenFizzBuzzIsPassedAMultipleOfThreeItReturnsFizz(int input)
+        {
+            FizzBuzz.Evaluate(input).ShouldContain(FizzBuzz.Fizz);
+        }
 
-    [Fact]
-    public void whenFizzBuzzIsPassedAMultipleOfThreeItReturnsFizz()
-    {
-      Assert.Equal("fizz", fizzBuzz.Fizz(3));
-      Assert.Equal("fizz", fizzBuzz.Fizz(6));
-    }
+        [Theory]
+        [InlineData(5)]
+        [InlineData(10)]
+        public void WhenFizzBuzzIsPassedAMultipleOfFiveItReturnsBuzz(int input)
+        {
+            FizzBuzz.Evaluate(input).ShouldContain(FizzBuzz.Buzz);
+        }
 
-    [Fact]
-    public void whenFizzBuzzIsPassedAMultipleOfFiveItReturnsBuzz()
-    {
-      Assert.Equal("buzz", fizzBuzz.Fizz(5));
-      Assert.Equal("buzz", fizzBuzz.Fizz(10));
+        [Theory]
+        [InlineData(0)]
+        [InlineData(15)]
+        [InlineData(45)]
+        public void WhenFizzBuzzIsPassedAMultipleOfThreeAndFiveItReturnsFizzBuzz(int input)
+        {
+            FizzBuzz.Evaluate(input).ShouldBe($"{FizzBuzz.Fizz}{FizzBuzz.Buzz}");
+        }
     }
-
-    [Fact]
-    public void whenFizzBuzzIsPassedAMultipleOfThreeAndFiveItReturnsFizzBuzz()
-    {
-      Assert.Equal("fizzBuzz", fizzBuzz.Fizz(15));
-      Assert.Equal("fizzBuzz", fizzBuzz.Fizz(45));
-    }
-  }
 }
